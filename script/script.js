@@ -1,9 +1,9 @@
 
 
 var yourname = prompt('what is your name ?');
-var yourage = prompt('how old are you ?');
+
 var calories
-function calories() {
+function calories () {
     var cal = prompt('how much Calories your food have ?');
   var food;
   if (cal > 18) {
@@ -11,7 +11,14 @@ function calories() {
   } else 
     food = 'your food is healthy';
     return food;
-
+}
+function yourage() {
+    var yourage = prompt('how old are you ?');
+    if ( yourage >=45  ){
+        yourage = '<img src="https://now.tufts.edu/sites/default/files/bodyimages/160516_myplate_older_adults_inside.jpg>';
+     } else 
+yourage = "take care about your healthy "
+    }
 var output
 
 var fine =confirm('are you feeling fine?');
@@ -19,7 +26,7 @@ if ( fine==true ){
     output= 'have agood day ';
  } else 
     output='you have to visit adoctor ';
-}
+
 
 document.write( '<h3>' + yourname + '</h3>');
 document.write( '<h3>' + yourage + '</h3>');
