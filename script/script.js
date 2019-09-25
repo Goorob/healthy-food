@@ -16,7 +16,7 @@ if ( fine==t ){
 }else {
     output='you have to visit adoctor ';
 }
-    
+
 document.write( '<h3>' + yourname + '</h3>');
 document.write( '<h3>' + yourage + '</h3>');
 document.write( '<h3>' + food + '</h3>');
