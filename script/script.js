@@ -11,9 +11,9 @@ else if (cal < 8000){
     food = ' your food is healthy ';
 } 
 var fine =confirm('are you feeling fine?');
-if ( fine==t ){
+if ( fine==true ){
     output= 'have agood day ';
-}else {
+ } else {
     output='you have to visit adoctor ';
 }
 
