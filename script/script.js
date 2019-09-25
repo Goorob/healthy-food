@@ -9,14 +9,14 @@ if (cal > 8000){
 }
 else if (cal < 8000){
     food = ' your food is healthy ';
-} else 
+} 
+
 if ( fine ){
     output= 'have agood day ';
 }else {
     output='you have to visit adoctor ';
 }
     
-
 document.write( '<h3>' + yourname + '</h3>');
 document.write( '<h3>' + yourage + '</h3>');
 document.write( '<h3>' + food + '</h3>');
