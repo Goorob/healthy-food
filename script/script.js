@@ -30,8 +30,48 @@ if ( fine == true ) {
     output = ' have agood day ';
  } else {
     output =' you have to visit adoctor ';
-
 }
+var junkorhealthy = function() {
+
+  var total =7
+    var order = prompt('What do you prefer ? "junk" or "healthy"?');
+  
+    var picture = ''; 
+  
+
+  
+    while (order !== 'junk' && order !== 'healthy') {
+  
+      order = prompt('Please enter "junk" or "healthy"...');
+  
+    }
+    
+    for(var models = 0; models < total; models = models + 1) {
+  
+      if (order === 'junk') {
+  
+        picture = picture + '<p><img src="https://c.ndtvimg.com/k03tb2a_healthy-food_625x300_17_August_18.jpg"></p>'
+  
+      } else if (order === 'healthy') {
+  
+        picture = picture + '<p><img src="https://c.ndtvimg.com/k03tb2a_healthy-food_625x300_17_August_18.jpg"></p>'
+  
+      }
+  
+    }
+  
+  
+
+    // output
+  
+    return picture;
+  
+  }
+
+  
+
+  document.write( '<h3>' + picture + '</h3>');
+
 document.write( '<h3>' + yourname + '</h3>');
 
 document.write( '<h3>' + output + '</h3>');
