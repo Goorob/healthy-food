@@ -16,7 +16,7 @@ function calories () {
 function age () {
     var yourage = prompt('how old are you ?');
     if ( yourage >=45  ) {
-        yourage = '<img src="https://now.tufts.edu/sites/default/files/bodyimages/160516_myplate_older_adults_inside.jpg>';
+        yourage = '<img src="https://now.tufts.edu/sites/default/files/bodyimages/160516_myplate_older_adults_inside.jpg">';
      } else {
 yourage = "take care about your healthy " }
      
